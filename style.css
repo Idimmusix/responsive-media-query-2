@@ -29,7 +29,7 @@ main {
 .nav {
   align-items: left;
   margin: auto;
-  grid-area: a;
+  grid-area: "a";
   padding: 20px;
   width: 100%;
   background-color: white;
@@ -38,11 +38,11 @@ main {
   align-items: right;
   margin: 20px;
   width: 100%;
-  grid-area: b;
+  grid-area: "b";
 }
 .text1 {
-  grid-area: c;
+  grid-area: "c";
 }
 .image1 {
-  grid-area: d;
+  grid-area: "d";
 }
