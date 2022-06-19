@@ -14,14 +14,16 @@ header {
 }
 main {
   display: flex;
-  width: 50%;
+  width: 100%;
   flex-direction: column;
   padding: auto;
 }
 .hero {
+  width: 100%;
   display: grid;
-  background-color: aliceblue;
+  background-color: hsl(193, 100%, 96%);
   background-image: url("./img/bg-hero-desktop.svg");
+  align-items: stretch;
   grid-template-areas:
     "a b"
     "c d";
@@ -35,6 +37,8 @@ main {
   grid-area: "a";
   padding: 20px;
   width: 100%;
+  display: flex;
+
   background-color: inherit;
 }
 .menu {
@@ -45,6 +49,17 @@ main {
 }
 .text1 {
   grid-area: "c";
+}
+.get-started {
+  background-color: hsl(322, 100%, 66%);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 1em;
+
+  padding: 0.5rem;
+  width: 50%;
 }
 .image1 {
   grid-area: "d";
