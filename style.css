@@ -57,7 +57,7 @@ main {
   color: white;
   font-size: 12px;
   margin-bottom: 1em;
-
+  border-radius: 25px;
   padding: 0.5rem;
   width: 50%;
 }
