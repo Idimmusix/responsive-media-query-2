@@ -45,11 +45,20 @@ main {
   background-color: inherit;
 }
 .menu {
-  justify-content: right;
-  align-items: right;
+  justify-content: left;
+  align-items: left;
   margin: auto;
   width: 100%;
   grid-area: "b";
+}
+.menu .try-free {
+  background-color: white;
+  margin: auto;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 25px;
 }
 .text1 {
   grid-area: "c";
