@@ -27,6 +27,7 @@ main {
   background-color: hsl(193, 100%, 96%);
   background-image: url("./img/bg-hero-desktop.svg");
   align-items: stretch;
+  height: 50vh;
   grid-template-areas:
     "a b"
     "c d";
@@ -93,4 +94,31 @@ main {
 }
 .image1 {
   grid-area: "d";
+  justify-content: right;
+  align-items: right;
+  margin: auto;
+  width: 100%;
 }
+
+.second-div {
+  width: 100%;
+  display: flex;
+  margin: 5%;
+  background-color: white;
+  height: 40vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px blur hsl(208, 11%, 55%);
+}
+.second-div .t2 {
+   width: 50%;
+  justify-content: left;
+  margin-right: 15%;
+  font-weight: bold;
+  margin-right: auto;
+}
+.second-div .image2{
+
+justify-content: right;
+  align-items: right;
+  margin: auto;
+  width: 100%;
