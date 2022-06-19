@@ -13,16 +13,19 @@ header {
   width: 100%;
 }
 main {
-  display: grid;
+  display: flex;
   width: 50%;
+  flex-direction: column;
+  padding: auto;
 }
 .hero {
+  display: grid;
+  background-color: aliceblue;
   background-image: url("./img/bg-hero-desktop.svg");
   grid-template-areas:
     "a b"
     "c d";
 
-  display: flex;
   padding: 5em;
   margin: 10px;
 }
@@ -32,7 +35,7 @@ main {
   grid-area: "a";
   padding: 20px;
   width: 100%;
-  background-color: white;
+  background-color: inherit;
 }
 .menu {
   align-items: right;
