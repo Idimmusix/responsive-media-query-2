@@ -45,8 +45,8 @@ main {
   background-color: inherit;
 }
 .menu {
-  justify-content: left;
-  align-items: left;
+  justify-content: right;
+  align-items: right;
   margin: auto;
   width: 100%;
   grid-area: "b";
