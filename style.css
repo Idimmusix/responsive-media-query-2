@@ -7,6 +7,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
+  font-family: Poppins, Arial;
+  font-size: 18px;
 }
 header {
   display: flex;
@@ -20,6 +22,7 @@ main {
 }
 .hero {
   width: 100%;
+  font-family: Open sans, Sans-serif;
   display: grid;
   background-color: hsl(193, 100%, 96%);
   background-image: url("./img/bg-hero-desktop.svg");
@@ -27,7 +30,7 @@ main {
   grid-template-areas:
     "a b"
     "c d";
-
+  margin-right: 10px;
   padding: 5em;
   margin: 10px;
 }
@@ -42,22 +45,40 @@ main {
   background-color: inherit;
 }
 .menu {
+  justify-content: right;
   align-items: right;
-  margin: 20px;
+  margin: auto;
   width: 100%;
   grid-area: "b";
 }
 .text1 {
   grid-area: "c";
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  flex-wrap: wrap;
+}
+.text1 h2 {
+  width: 50%;
+  justify-content: left;
+  margin-right: 15%;
+  font-weight: bold;
+  margin-right: auto;
+}
+.text p {
+  width: 50%;
+  justify-content: left;
 }
 .get-started {
   background-color: hsl(322, 100%, 66%);
-  align-items: center;
+  align-items: centre;
   justify-content: center;
   color: white;
   font-size: 12px;
+  margin-top: 1em;
   margin-bottom: 1em;
   border-radius: 25px;
+
   padding: 0.5rem;
   width: 50%;
 }
