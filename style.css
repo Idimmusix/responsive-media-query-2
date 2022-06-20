@@ -4,81 +4,66 @@
   box-sizing: border-box;
 }
 
-.overall-div {
-  display:inline-flex;
-  width: 75%;
-  justify-content: center;
-  align-items: center;
+body {
   background-color: white;
-  font-family: 'Poppins', Arial;
+  font-family: "Poppins", Arial;
   font-size: 18px;
 }
-main {
-  display: flex;
-
-  width: 100%;
-  flex-direction: column;
-  padding: auto;
-}
-
-  
-
-.hero {
-  width: 100%;
-  font-family: Open sans, Sans-serif;
-  display: grid;
+.top-section {
+  background-image: url("./img/bg-hero-mobile.svg");
   background-color: hsl(193, 100%, 96%);
-  background-image: url("./img/bg-hero-desktop.svg");
-  background-size:100%;
-  align-items: stretch;
-  height: 50vh;
-  grid-template-areas:
-    "a b"
-    "c d";
-  margin-right: 10px;
-  padding: 5em;
-  margin: 10px;
-  margin-bottom: 30px;
-}
-.nav {
-  align-items: left;
-  margin: auto;
-  grid-area: "a";
-  padding: 20px;
-  width: 100%;
+  background-size: 100%;
   display: flex;
-
-  background-color: inherit;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  align-items: stretch;
+  padding-top: 20px;
+}
+.logo {
+  width: 125px;
+  margin-left: 2%;
+  margin-right: auto;
 }
 .menu {
-  justify-content: right;
-  align-items: right;
-  margin: auto;
-  width: 100%;
-  grid-area: "b";
+  margin-right: 2%;
 }
 .menu .try-free {
   background-color: white;
+  border: none;
   margin: auto;
-  padding-right: 2em;
-  padding-left: 2em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 0.5em 2em 0.5em 2em;
+
   border-radius: 25px;
+  box-shadow: 1px 1px 10px 1px hsl(208, 11%, 55%);
 }
-.text1 {
-  grid-area: "c";
+.hero {
+  width: 100%;
+  font-family: "Poppins", Sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex: 1 1 auto;
+  margin: 5em 20% 10% 0em;
+  padding: 1pc 15px 5px 3em;
+  text-align: center;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  margin: 25px;
   margin: auto;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .text1 h2 {
-  width: 50%;
-  justify-content: left;
-  margin-right: 15%;
+  width: 100%;
+  margin: auto;
+  align-items: center;
   font-weight: bold;
   margin-right: auto;
 }
