@@ -8,6 +8,7 @@ body {
   background-color: white;
   font-family: "Poppins", Arial;
   font-size: 18px;
+  font-weight: 800;
 }
 .top-section {
   background-image: url("./img/bg-hero-mobile.svg");
@@ -43,6 +44,7 @@ header {
   font-family: "Poppins", Sans-serif;
   display: flex;
   flex-direction: column;
+  flex-grow: 1 1 auto;
   margin: 5em 20% 10% 0em;
   padding: 1pc 15px 5px 3em;
   text-align: center;
@@ -60,29 +62,32 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
-.text1 h2 {
+.text1 h1 {
   width: 100%;
   margin: auto;
   align-items: center;
   font-weight: bold;
-  margin-right: auto;
+  font-size: 30px;
+  margin: 15px 5% 10% 0.5em;
 }
 .text p {
   width: 50%;
   justify-content: left;
+  margin: 15px 5% 10% 0.5em;
 }
 .get-started {
   background-color: hsl(322, 100%, 66%);
   align-items: centre;
   justify-content: center;
   color: white;
-  font-size: 12px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-size: 18px;
+  margin: 2em 5% 2em 5%;
+  margin-top: 2em;
+  margin-bottom: 2em;
   border-radius: 25px;
-
-  padding: 0.5rem;
-  width: 50%;
+  border: none;
+  padding: 1em 1.5em 1em 1.5em;
+  width: 75%;
 }
 .image1 {
   grid-area: "d";
