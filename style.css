@@ -113,10 +113,10 @@ header {
   flex-direction: column;
 }
 .second-div {
-  width: 100%;
+  width: 80%;
   display: flex;
   margin: 10%;
-  margin-bottom: 30px;
+  margin-right: 10%;
   background-color: white;
 
   height: 40vh;
