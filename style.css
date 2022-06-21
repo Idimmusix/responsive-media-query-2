@@ -102,8 +102,29 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+  .top-section {
+    background-image: url("./img/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+    max-height: 80vh;
+
+    /* background-size: 100%; */
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
   .hero {
+    justify-content: center;
     flex-direction: row;
+    width: 100%;
+    max-height: 80%;
+  }
+  .image1 {
+    flex-grow: 1 1 0;
+    width: 100%;
+    margin: 30px 5% 30px 5%;
+  }
+  .image1 img {
+    max-width: 80%;
   }
 }
 .sect-2 {
@@ -113,17 +134,16 @@ header {
   flex-direction: column;
 }
 .second-div {
-  width: 100%;
+  /* width: 100%; */
   font-family: "Poppins", Sans-serif;
   display: flex;
   flex-direction: column-reverse;
-  margin: 5em 20% 10% 2.5em;
+  margin: 5em 10% 2.5em;
   padding: 1pc 15px 5px 3%;
   text-align: center;
-  margin-right: 10%;
+  /* height: 50%; */
   background-color: white;
 
-  height: 89vh;
   border-radius: 10px;
   align-items: center;
   box-shadow: 1px 1px 10px 1px hsl(208, 11%, 55%);
@@ -152,23 +172,30 @@ header {
 }
 .t2 p {
   width: 50%;
-  justify-content: left;
-  margin: 10px 15% 10% 0.5em;
+  justify-content: center;
+  margin: 10% 15% 10% 15%;
 }
 
 /*end*/
 
 .second-div .image2 {
-  justify-content: center;
-  align-items: center;
-
-  margin: 30px 5% 30px 5%;
-  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
   box-sizing: border-box;
+  max-height: 50%;
+  margin: 30px 5% 25px 5%;
+  width: 100%;
+  /* box-sizing: border-box; */
   flex-grow: 1 1 0;
 }
 .second-div .image2 img {
-  padding: 0px 10px 5px 10px;
+  /* margin: 4pc 4pc 4pc 4pc; */
+  /* padding: 0px 10px 5px 10px; */
   max-width: 100%;
   max-height: 50%;
+}
+@media only screen and (min-width: 768px) {
+  .second-div {
+    flex-direction: row;
+  }
 }
