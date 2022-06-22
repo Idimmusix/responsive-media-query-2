@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -52,6 +51,7 @@ header {
   margin: 5em 20% 10% 0em;
   padding: 1pc 15px 5px 3%;
   text-align: center;
+  flex-grow: 1;
 }
 
 .text1 {
@@ -60,7 +60,6 @@ header {
 
   width: 100%;
 
-  margin: 25px;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -85,7 +84,7 @@ header {
   justify-content: center;
   color: white;
   font-size: 18px;
-  margin: 2em 5% 2em 5%;
+  margin: 5% 5% 10% 5%;
 
   border-radius: 25px;
   border: none;
@@ -93,7 +92,7 @@ header {
   width: 75%;
 }
 .image1 {
-  flex-grow: 1 1 0;
+  flex-grow: 1;
   width: 100%;
   margin: 30px 5% 30px 5%;
 }
@@ -118,13 +117,8 @@ header {
     width: 100%;
     max-height: 80%;
   }
-  .image1 {
-    flex-grow: 1 1 0;
-    width: 100%;
-    margin: 30px 5% 30px 5%;
-  }
   .image1 img {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 .sect-2 {
@@ -157,7 +151,7 @@ header {
   width: 100%;
 
   margin: 25px;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
