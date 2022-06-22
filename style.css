@@ -23,13 +23,13 @@ header {
   align-items: stretch;
   padding-top: 20px;
 }
-.logo {
+header .logo {
   width: 125px;
   margin-left: 2%;
   margin-right: auto;
   /* background-color: pink; */
 }
-.logo img {
+header .logo img {
   width: 100%;
   height: 18px;
 }
@@ -379,7 +379,34 @@ footer {
   margin-top: -1em;
   display: flex;
   flex-direction: column;
+  padding: 10% 3% 3% 3%;
   color: hsl(208, 11%, 55%);
   position: relative;
   z-index: -1;
+  align-items: center;
+}
+footer .logo {
+  filter: invert(100%);
+  justify-content: cemter;
+  margin: 10% 10% 3% 0%;
+  /* width: 125px;
+  margin-left: 2%;
+  margin-right: auto; */
+
+  /* background-color: white; */
+}
+footer .logo img {
+  filter: grayscale(200%);
+}
+@media only screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding: 10% 3% 3% 3%; */
+  }
+  footer .logo {
+    /* width: 125px; */
+    margin-left: 2%;
+    margin-right: auto;
+  }
 }
