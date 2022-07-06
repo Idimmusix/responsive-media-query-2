@@ -149,7 +149,7 @@ header .logo img {
   text-align: center;
   /* height: 50%; */
   background-color: white;
-
+  transition-delay: 0.9s;
   border-radius: 10px;
   align-items: center;
   box-shadow: 1px 1px 10px 1px hsl(208, 11%, 55%);
