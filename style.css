@@ -17,6 +17,9 @@ body {
   display: flex;
   flex-direction: column;
   z-index: 1;
+  transition-property: position;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
 }
 header {
   display: flex;
